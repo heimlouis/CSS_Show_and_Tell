@@ -1,0 +1,30 @@
+.slideIn{
+    animation-duration: 5s;
+    font-size: 56px;
+    animation-name: test;
+    color: blue;
+    text-align: center;
+}
+@-webkit-keyframes test {
+  0% {
+    transform: scale(0.1);
+    opacity: 5;
+    color: red;
+  }
+  50% {
+    transform: scale(5);
+    opacity: 3;
+    color: green;
+    margin-top: 200px;
+  }
+  40% {
+    transform: scale(0);
+    opacity: 1;
+    color: black;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+    font-weight: bold;
+  }
+}
